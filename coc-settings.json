@@ -1,0 +1,22 @@
+{
+    "clangd.arguments": [
+        "--header-insertion=never",         
+        "--completion-style=detailed",
+        "--background-index", 
+        "--suggest-missing-includes"
+    ],
+
+    "suggest.noselect": false, 
+    "suggest.enablePreselect": true, 
+    "coc.preferences.formatOnSaveFiletypes": [
+        "c",
+        "cpp",
+        "h"
+    ],
+
+
+    "diagnostic.virtualText": true,
+    "diagnostic.displayByAle": false, 
+    "coc.preferences.useQuickfixForLocations": true
+}
+
