@@ -168,10 +168,8 @@ set nobackup
 set nowritebackup
 set updatetime=300
 set signcolumn=yes
-inoremap <silent><expr> <C-j>
-    \ coc#pum#visible() ? coc#pum#next(1) :
-    \ CheckBackspace() ? "\<Tab>" :
-    \ coc#refresh()
+inoremap <silent><expr> <C-j> coc#pum#visible() ? coc#pum#next(1) :
+    \ CheckBackspace() ? "\<Tab>" : coc#refresh()
 inoremap <expr><C-k> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"

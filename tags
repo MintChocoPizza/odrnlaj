@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/dpsem7/llll/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+0	coc-settings.json	/^        "--header-insertion=never",         $/;"	s	language:JSON	array:clangd.arguments
+0	coc-settings.json	/^        "c",$/;"	s	language:JSON	array:coc.preferences.formatOnSaveFiletypes
+1	coc-settings.json	/^        "--completion-style=detailed",$/;"	s	language:JSON	array:clangd.arguments
+1	coc-settings.json	/^        "cpp",$/;"	s	language:JSON	array:coc.preferences.formatOnSaveFiletypes
+2	coc-settings.json	/^        "--background-index", $/;"	s	language:JSON	array:clangd.arguments
+2	coc-settings.json	/^        "h"$/;"	s	language:JSON	array:coc.preferences.formatOnSaveFiletypes
+3	coc-settings.json	/^        "--suggest-missing-includes"$/;"	s	language:JSON	array:clangd.arguments
+<C-b>	.vimrc	/^    inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\/;"	m	language:Vim
+<C-b>	.vimrc	/^    nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b/;"	m	language:Vim
+<C-b>	.vimrc	/^    vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b/;"	m	language:Vim
+<C-f>	.vimrc	/^    inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\/;"	m	language:Vim
+<C-f>	.vimrc	/^    nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f/;"	m	language:Vim
+<C-f>	.vimrc	/^    vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f/;"	m	language:Vim
+<C-j>	.vimrc	/^inoremap <silent><expr> <C-j> coc#pum#visible() ? coc#pum#next(1) :$/;"	m	language:Vim
+<C-k>	.vimrc	/^inoremap <expr><C-k> coc#pum#visible() ? coc#pum#prev(1) : "\\<C-h>"$/;"	m	language:Vim
+<C-s>	.vimrc	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m	language:Vim
+<C-s>	.vimrc	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m	language:Vim
+<CR>	.vimrc	/^inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()$/;"	m	language:Vim
+<F8>	.vimrc	/^nmap <F8> :TagbarToggle<CR>$/;"	m	language:Vim
+<F9>	.vimrc	/^nnoremap <F9> :NERDTreeToggle<CR>$/;"	m	language:Vim
+<S-h>	.vimrc	/^noremap <silent><S-h> :<C-U>TmuxNavigateLeft<CR>$/;"	m	language:Vim
+<S-j>	.vimrc	/^noremap <silent><S-j> :<C-U>TmuxNavigateDown<CR>$/;"	m	language:Vim
+<S-k>	.vimrc	/^noremap <silent><S-k> :<C-U>TmuxNavigateUp<CR>$/;"	m	language:Vim
+<S-l>	.vimrc	/^noremap <silent><S-l> :<C-U>TmuxNavigateRight<CR>$/;"	m	language:Vim
+<leader><S-Tab>	.vimrc	/^nnoremap <leader><S-Tab> :bprevious<CR>$/;"	m	language:Vim
+<leader><Space>	.vimrc	/^inoremap <silent><expr> <leader><Space> coc#refresh()$/;"	m	language:Vim
+<leader><Tab>	.vimrc	/^nnoremap <leader><Tab> :bnext<CR>$/;"	m	language:Vim
+<leader>a	.vimrc	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m	language:Vim
+<leader>a	.vimrc	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m	language:Vim
+<leader>ac	.vimrc	/^nmap <leader>ac  <Plug>(coc-codeaction-cursor)$/;"	m	language:Vim
+<leader>as	.vimrc	/^nmap <leader>as  <Plug>(coc-codeaction-source)$/;"	m	language:Vim
+<leader>cl	.vimrc	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m	language:Vim
+<leader>f	.vimrc	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m	language:Vim
+<leader>f	.vimrc	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m	language:Vim
+<leader>h	.vimrc	/^nnoremap <leader>h :tabprevious<CR>$/;"	m	language:Vim
+<leader>j	.vimrc	/^inoremap <leader>j <C-n>$/;"	m	language:Vim
+<leader>k	.vimrc	/^inoremap <leader>k <C-p>$/;"	m	language:Vim
+<leader>l	.vimrc	/^nnoremap <leader>l :tabnext<CR>$/;"	m	language:Vim
+<leader>nh	.vimrc	/^nnoremap <leader>nh :nohl<CR>$/;"	m	language:Vim
+<leader>qf	.vimrc	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m	language:Vim
+<leader>r	.vimrc	/^nmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)$/;"	m	language:Vim
+<leader>r	.vimrc	/^xmap <silent> <leader>r  <Plug>(coc-codeaction-refactor-selected)$/;"	m	language:Vim
+<leader>re	.vimrc	/^nmap <silent> <leader>re <Plug>(coc-codeaction-refactor)$/;"	m	language:Vim
+<leader>rn	.vimrc	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m	language:Vim
+<leader>t	.vimrc	/^nnoremap <leader>t :tabnew<CR>$/;"	m	language:Vim
+<space>a	.vimrc	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m	language:Vim
+<space>c	.vimrc	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m	language:Vim
+<space>e	.vimrc	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m	language:Vim
+<space>j	.vimrc	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m	language:Vim
+<space>k	.vimrc	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m	language:Vim
+<space>o	.vimrc	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m	language:Vim
+<space>p	.vimrc	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m	language:Vim
+<space>s	.vimrc	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m	language:Vim
+CheckBackspace	.vimrc	/^function! CheckBackspace() abort$/;"	f	language:Vim
+Fold	.vimrc	/^command! -nargs=? Fold :call     CocAction('fold'<f-args>)$/;"	c	language:Vim
+Format	.vimrc	/^command! -nargs=0 Format :call CocActionAsync('format')$/;"	c	language:Vim
+NERDTreeWinPos	.vimrc	/^let NERDTreeWinPos = "left"$/;"	v	language:Vim
+OR	.vimrc	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand''editor.action.organizeImport')$/;"	c	language:Vim
+ShowDocumentation	.vimrc	/^function! ShowDocumentation()$/;"	f	language:Vim
+[g	.vimrc	/^nmap <silent><nowait> [g <Plug>(coc-diagnostic-prev)$/;"	m	language:Vim
+]g	.vimrc	/^nmap <silent><nowait> ]g <Plug>(coc-diagnostic-next)$/;"	m	language:Vim
+ac	.vimrc	/^omap ac <Plug>(coc-classobj-a)$/;"	m	language:Vim
+ac	.vimrc	/^xmap ac <Plug>(coc-classobj-a)$/;"	m	language:Vim
+af	.vimrc	/^omap af <Plug>(coc-funcobj-a)$/;"	m	language:Vim
+af	.vimrc	/^xmap af <Plug>(coc-funcobj-a)$/;"	m	language:Vim
+clangd.arguments	coc-settings.json	/^    "clangd.arguments": [$/;"	a	language:JSON
+coc.preferences.formatOnSaveFiletypes	coc-settings.json	/^    "coc.preferences.formatOnSaveFiletypes": [$/;"	a	language:JSON
+coc.preferences.useQuickfixForLocations	coc-settings.json	/^    "coc.preferences.useQuickfixForLocations": true$/;"	b	language:JSON
+diagnostic.displayByAle	coc-settings.json	/^    "diagnostic.displayByAle": false, $/;"	b	language:JSON
+diagnostic.virtualText	coc-settings.json	/^    "diagnostic.virtualText": true,$/;"	b	language:JSON
+g:airline#extensions#tabline#buffer_nr_format	.vimrc	/^let g:airline#extensions#tabline#buffer_nr_format = '%s:'$/;"	v	language:Vim
+g:airline#extensions#tabline#buffer_nr_show	.vimrc	/^let g:airline#extensions#tabline#buffer_nr_show = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline_powerline_fonts	.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:ctrlp_custom_ignore	.vimrc	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\\.(git|hg|svn)$'$/;"	v	language:Vim
+g:ctrlp_map	.vimrc	/^let g:ctrlp_map = '<c-p>'$/;"	v	language:Vim
+g:gruvbox_contrast_dark	.vimrc	/^let g:gruvbox_contrast_dark = 'soft'$/;"	v	language:Vim
+g:gruvbox_italic	.vimrc	/^let g:gruvbox_italic = 1$/;"	v	language:Vim
+g:gutentags_ctags_extra_args	.vimrc	/^let g:gutentags_ctags_extra_args = ['--fields=+l', '--extras=+q']$/;"	v	language:Vim
+g:gutentags_enabled	.vimrc	/^let g:gutentags_enabled = 1$/;"	v	language:Vim
+g:gutentags_project_root	.vimrc	/^let g:gutentags_project_root = ['.git', '.hg', '.svn']$/;"	v	language:Vim
+g:netrw_banner	.vimrc	/^let g:netrw_banner=0$/;"	v	language:Vim
+g:netrw_liststyle	.vimrc	/^let g:netrw_liststyle=3$/;"	v	language:Vim
+g:netrw_winsize	.vimrc	/^let g:netrw_winsize=22$/;"	v	language:Vim
+g:tmux_navigator_no_mappings	.vimrc	/^let g:tmux_navigator_no_mappings = 1$/;"	v	language:Vim
+gD	.vimrc	/^nmap <silent><nowait> gD <Plug>(coc-declaration)$/;"	m	language:Vim
+gd	.vimrc	/^nmap <silent><nowait> gd <Plug>(coc-definition)$/;"	m	language:Vim
+gh	.vimrc	/^nnoremap <silent> gh :call ShowDocumentation()<CR>$/;"	m	language:Vim
+gi	.vimrc	/^nmap <silent><nowait> gi <Plug>(coc-implementation)$/;"	m	language:Vim
+gr	.vimrc	/^nmap <silent><nowait> gr <Plug>(coc-references)$/;"	m	language:Vim
+gy	.vimrc	/^nmap <silent><nowait> gy <Plug>(coc-type-definition)$/;"	m	language:Vim
+ic	.vimrc	/^omap ic <Plug>(coc-classobj-i)$/;"	m	language:Vim
+ic	.vimrc	/^xmap ic <Plug>(coc-classobj-i)$/;"	m	language:Vim
+if	.vimrc	/^omap if <Plug>(coc-funcobj-i)$/;"	m	language:Vim
+if	.vimrc	/^xmap if <Plug>(coc-funcobj-i)$/;"	m	language:Vim
+mapleader	.vimrc	/^let mapleader=","$/;"	v	language:Vim
+mygroup	.vimrc	/^augroup mygroup$/;"	a	language:Vim
+q	.tmux.conf	/^set-option -ga terminal-overrides ',xterm*:Ss=\\E[%p1%d q:Se=\\E[2 q'$/;"	k	language:Iniconf
+q	.tmux.conf	/^set-option -ga terminal-overrides ',xterm*:Ss=\\E[%p1%d q:Se=\\E[2 q,screen*:Ss=\\E[%p1%d q:Se=\\/;"	k	language:Iniconf
+style fg	.tmux.conf	/^set -g pane-active-border-style fg=brightyellow$/;"	k	language:Iniconf
+style fg	.tmux.conf	/^set -g pane-border-style fg=grey$/;"	k	language:Iniconf
+suggest.enablePreselect	coc-settings.json	/^    "suggest.enablePreselect": true, $/;"	b	language:JSON
+suggest.noselect	coc-settings.json	/^    "suggest.noselect": false, $/;"	b	language:JSON
