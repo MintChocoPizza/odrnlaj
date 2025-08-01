@@ -15,7 +15,8 @@
 1	coc-settings.json	/^        "cpp",$/;"	s	language:JSON	array:coc.preferences.formatOnSaveFiletypes
 2	coc-settings.json	/^        "--background-index", $/;"	s	language:JSON	array:clangd.arguments
 2	coc-settings.json	/^        "h"$/;"	s	language:JSON	array:coc.preferences.formatOnSaveFiletypes
-3	coc-settings.json	/^        "--suggest-missing-includes"$/;"	s	language:JSON	array:clangd.arguments
+3	coc-settings.json	/^        "--suggest-missing-includes",$/;"	s	language:JSON	array:clangd.arguments
+4	coc-settings.json	/^        "--std=c++20"$/;"	s	language:JSON	array:clangd.arguments
 <C-b>	.vimrc	/^    inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\/;"	m	language:Vim
 <C-b>	.vimrc	/^    nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b/;"	m	language:Vim
 <C-b>	.vimrc	/^    vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b/;"	m	language:Vim

@@ -3,7 +3,8 @@
         "--header-insertion=never",         
         "--completion-style=detailed",
         "--background-index", 
-        "--suggest-missing-includes"
+        "--suggest-missing-includes",
+        "--std=c++20"
     ],
 
     "suggest.noselect": false, 
